@@ -6,4 +6,7 @@ There is room to grow this website. In the future, I will continue to sync proje
 
 There are layout issues I have encountered to this page, updates will be released fixing layout errors with JavaScript and CSS images when changing size of the browsers window.
 
+![image](https://user-images.githubusercontent.com/89045948/135783112-e47ad6ee-3937-4416-8642-0a75e6000109.png)
+
+
 Updated 10/3/21
