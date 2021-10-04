@@ -5,10 +5,11 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
 }
 header {
     padding: 20px 35px;
-    background-color: #483D8B;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -24,13 +25,12 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #a3a3a3;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header a {
     text-decoration: none;
-    color: white;
+    color: #FFF0F5;
 }
 header nav {
     margin: 10px 20px;
@@ -53,7 +53,10 @@ section {
     text-align: center;
 }
 footer {
-    background: #483D8B;
+    background-image: url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -61,20 +64,20 @@ footer {
     flex-wrap: wrap;
 }
 footer h3 {
-    color: white;
+    color: #F0FFFF;
     font-size: 30px;
     margin: 0;
 }
 .hero {
-    background-image: url("../assets/images/hero.jpg");
+    background-image:url("../assets/images/hero.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
 
 }
 .section-title {
-    font-size: 36px;
-    color: white;
+    font-size: 35px;
+    color: #FFF0F5;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -83,5 +86,53 @@ footer h3 {
     width: 50%;
 }
 .primary-border {
-    border-color: #483D8B;
+    border-color: #FFF0F5
+    ;
+}
+.about-me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: whitesmoke;
+    text-align: left;
+}
+.about-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px solid black;
+    box-shadow: 2px 2px rgb(51, 50, 50);
+}
+.about-me p {
+    line-height: 1.7;
+    padding: 20px;
+    color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+.run-buddy img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid black;
+    box-shadow: 2px 2px rgb(51, 50, 50);
+}
+.other-work img {
+    display: block;
+    float: left;
+    border: 2px solid black;
+    box-shadow: 2px 2px rgb(51, 50, 50);
+    margin: 40px 150px;
+}
+.info {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: whitesmoke;
 }
