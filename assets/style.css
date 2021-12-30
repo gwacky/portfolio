@@ -65,8 +65,7 @@ footer {
 }
 footer h3 {
     color: #F0FFFF;
-    font-size: 30px;
-    margin: 0;
+    text-align: center;
 }
 .hero {
     background-image:url("../assets/images/hero.jpg");
